@@ -1,0 +1,25 @@
+{
+	"name": "creative-agency-back",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon .server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"firebase-admin": "^9.3.0",
+		"gridfs-stream": "^1.1.1",
+		"mongoose": "^5.10.11",
+		"multer": "^1.4.2",
+		"multer-gridfs-storage": "^4.2.0",
+		"nodemon": "^2.0.6",
+		"path": "^0.12.7"
+	}
+}
